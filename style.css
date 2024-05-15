@@ -22,6 +22,7 @@
 body {
     background: var(--bg-color);
     color: var(--text-color);
+    font-size: 100%; /* This sets 1rem to 16px by default */
 }
 
 /* Header Styles */
@@ -32,21 +33,21 @@ header {
     top: 0;
     right: 0;
     z-index: 1000;
-    padding: 32px 13%;
+    padding: 2rem 13vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    transition: all .50s ease;
+    transition: all 0.5s ease;
 }
 
 /* Logo Styles */
 .logo {
     color: var(--text-color);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 700;
-    text-shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
+    text-shadow: -0.0625rem -0.0625rem 0 #000, 0.4375rem 0.4375rem 0 #000, 0.5625rem 0.5625rem 0 #00000055;
 }
-.logo span{
+.logo span {
     color: var(--main-color);
 }
 
@@ -60,13 +61,13 @@ header {
     font-size: 1.7rem;
     font-weight: 500;
     color: var(--text-color);
-    margin: 0 30px;
-    transition: all .6s ease;
+    margin: 0 1.875rem;
+    transition: all 0.6s ease;
 }
 
 .navlist a:hover {
     color: var(--other-color);
-    transform: translateY(-6px);
+    transform: translateY(-0.375rem);
 }
 
 .nav-right {
@@ -76,35 +77,35 @@ header {
 
 .nav-btn {
     display: inline-block;
-    padding: 14px 35px;
+    padding: 0.875rem 2.1875rem;
     background: var(--main-color);
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .05em;
-    border-radius: 30px;
-    border: 2px solid transparent;
-    transition: all .6s ease;
+    letter-spacing: 0.05em;
+    border-radius: 1.875rem;
+    border: 0.125rem solid transparent;
+    transition: all 0.6s ease;
 }
 
 .nav-btn:hover {
     background: transparent;
-    border: 2px solid var(--main-color);
+    border: 0.125rem solid var(--main-color);
 }
 
 /* Menu Icon Styles */
 #menu-icon {
-    font-size: 40px;
+    font-size: 2.5rem;
     cursor: pointer;
     z-index: 10001;
-    margin-left: 20px;
+    margin-left: 1.25rem;
     display: none;
 }
 
 /* Section Styles */
 section {
-    padding: 0px 13% 0px;
+    padding: 0 13vw 0;
 }
 
 /* Hero Section Styles */
@@ -119,7 +120,7 @@ section {
 }
 
 .hero-img img {
-    max-width: 600px;
+    max-width: 37.5rem;
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -129,10 +130,10 @@ section {
     font-size: var(--h1-font);
     line-height: 1.1;
     font-weight: 700;
-    margin: 20px 0;
+    margin: 1.25rem 0;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    text-shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
+    letter-spacing: 0.125rem;
+    text-shadow: -0.0625rem -0.0625rem 0 #000, 0.4375rem 0.4375rem 0 #000, 0.5625rem 0.5625rem 0 #00000055;
 }
 
 .hero-text h1 span {
@@ -140,7 +141,7 @@ section {
 }
 
 .hero-text h6 {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 600;
 }
 
@@ -150,25 +151,25 @@ section {
 
 .hero-text h4 {
     font-family: "Caveat", cursive;
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .hero-text p {
     font-size: var(--p-font);
     color: var(--other-color);
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     line-height: 2;
 }
 
 .hero-icons i {
     display: inline-block;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--text-color);
-    margin-right: 20px;
-    transition: all .6s ease;
-    margin-bottom: 40px;
+    margin-right: 1.25rem;
+    transition: all 0.6s ease;
+    margin-bottom: 2.5rem;
 }
 
 .hero-icons i:hover {
@@ -184,18 +185,18 @@ section {
 /* Button Styles */
 .btn {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 0.9375rem 1.875rem;
     background: transparent;
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .05em;
-    border-radius: 30px;
-    border: 2px solid var(--main-color);
-    box-shadow: 2px 2px var(--main-color);
-    transition: all .6s ease;
-    margin-right: 30px;
+    letter-spacing: 0.05em;
+    border-radius: 1.875rem;
+    border: 0.125rem solid var(--main-color);
+    box-shadow: 0.125rem 0.125rem var(--main-color);
+    transition: all 0.6s ease;
+    margin-right: 1.875rem;
 }
 
 .btn:hover {
@@ -206,19 +207,19 @@ section {
 .btn2 {
     display: inline-block;
     color: var(--text-color);
-    font-size: 17px;
+    font-size: 1.0625rem;
     font-weight: 700;
     text-transform: uppercase;
-    border-bottom: 2px solid transparent;
-    letter-spacing: .05em;
-    transition: all .3s ease;
+    border-bottom: 0.125rem solid transparent;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
 }
 
 .btn2:hover {
-    border-bottom: 2px solid var(--text-color);
+    border-bottom: 0.125rem solid var(--text-color);
 }
 
-/* Scroll Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Scroll Styles */
 .scroll {
     position: absolute;
     top: 92%;
@@ -229,39 +230,39 @@ section {
 }
 
 .scroll a {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: var(--text-color);
-    letter-spacing: .05em;
-    transition: all .6s ease;
+    color: var (--text-color);
+    letter-spacing: 0.05em;
+    transition: all 0.6s ease;
 }
 
 .scroll i {
-    font-size: 16px;
-    margin-right: 9px;
+    font-size: 1rem;
+    margin-right: 0.5625rem;
 }
 
 .scroll a:hover {
-    transform: translateY(-7px);
+    transform: translateY(-0.4375rem);
     color: var(--main-color);
 }
 
 /* Skills Section Styles */
 #skills-section {
-    padding: 120px 0 50px;
+    padding: 7.5rem 0 3.125rem;
     position: relative;
 }
 
 #skills-section h2 {
     font-size: 3rem;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     position: relative;
     z-index: 1;
-    text-shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
+    text-shadow: -0.0625rem -0.0625rem 0 #000, 0.4375rem 0.4375rem 0 #000, 0.5625rem 0.5625rem 0 #00000055;
 }
-.skill-title h2 span{
+.skill-title h2 span {
     color: var(--main-color);
 }
 
@@ -273,17 +274,17 @@ section {
 
 .category {
     flex: 1;
-    padding: 20px;
-    margin-right: 20px;
+    padding: 1.25rem;
+    margin-right: 1.25rem;
     background-color: #333;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2);
 }
-.category h3{
+.category h3 {
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
     font-size: 2rem;
-    text-shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
+    text-shadow: -0.0625rem -0.0625rem 0 #000, 0.4375rem 0.4375rem 0 #000, 0.5625rem 0.5625rem 0 #00000055;
 }
 
 .category:last-child {
@@ -301,62 +302,30 @@ section {
 }
 
 .skill {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     color: var(--text-color);
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-right: 10px;
+    padding: 0.3125rem 0.625rem;
+    border-radius: 0.3125rem;
+    margin-right: 0.625rem;
     background-color: #000000;
     text-align: center;
 }
 
 .horizontal-list .skill {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
-/* Contact Section Styles ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Contact Section Styles */
 #contact-section {
-    padding: 100px 0;
+    padding: 6.25rem 0;
     text-align: center;
 }
-.contact-title h2 span{
-    color: var(--main-color);
-}
-
-#contact-section h2 {
-    font-size: 3rem;
-    margin-bottom: 40px;
-    text-shadow: -1px -1px 0px #000, 7px 7px 0px #000, 9px 9px 0px #00000055;
-}
-
-.contact-info {
-    margin-bottom: 40px;
-}
-
-.contact-info p {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
-}
-
-.social-links a {
-    display: inline-block;
-    font-size: 24px;
-    color: var(--text-color);
-    margin: 0 10px;
-    transition: all 0.3s ease;
-}
-
-.social-links a:hover {
+.contact-title h2 span {
     color: var(--main-color);
 }
 
 #contact-section form {
-    max-width: 600px;
+    max-width: 37.5rem;
     margin: 0 auto;
 }
 
@@ -364,72 +333,72 @@ section {
 #contact-section textarea {
     display: block;
     width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.3125rem;
     background-color: #333;
     color: var(--text-color);
     font-size: 1rem;
 }
 
 #contact-section textarea {
-    height: 150px;
+    height: 9.375rem;
     resize: vertical;
 }
 
 #contact-section button {
     display: inline-block;
-    padding: 15px 30px;
+    padding: 0.9375rem 1.875rem;
     background: var(--main-color);
     color: var(--text-color);
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: .05em;
-    border-radius: 30px;
+    letter-spacing: 0.05em;
+    border-radius: 1.875rem;
     border: none;
     cursor: pointer;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
 }
 
 #contact-section button:hover {
     background-color: transparent;
-    border: 2px solid var(--main-color);
+    border: 0.125rem solid var(--main-color);
 }
 
 /* Media Queries */
-@media (max-width: 1800px) {
+@media (max-width: 112.5rem) {
     header {
-        padding: 22px 6%;
+        padding: 1.375rem 6vw;
     }
 
     section {
-        padding: 40px 6% 50px;
+        padding: 2.5rem 6vw 3.125rem;
     }
 }
 
-@media (max-width: 1510px) {
+@media (max-width: 94.375rem) {
     :root {
         --h1-font: 4.2rem;
         --p-font: 1rem;
     }
 
     .hero-img img {
-        max-width: 540px;
+        max-width: 33.75rem;
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
 }
 
-@media (max-width: 1330px) {
+@media (max-width: 83.125rem) {
     header {
-        padding: 22px 4%;
+        padding: 1.375rem 4vw;
     }
 
     section {
-        padding: 40px 4% 50px;
+        padding: 2.5rem 4vw 3.125rem;
     }
 
     :root {
@@ -437,14 +406,14 @@ section {
     }
 
     .hero-img img {
-        max-width: 500px;
+        max-width: 31.25rem;
         width: 100%;
         height: 100%;
         object-fit: contain;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
     #menu-icon {
         display: block;
     }
@@ -455,18 +424,18 @@ section {
         right: -100%;
         width: 100%;
         height: 100vh;
-        backdrop-filter: blur(30px);
+        backdrop-filter: blur(1.875rem);
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding-top: 150px;
-        transition: all .6s ease;
+        padding-top: 9.375rem;
+        transition: all 0.6s ease;
     }
 
     .navlist a {
         display: block;
         padding: 0;
-        margin: 0px 0px 30px 0px;
+        margin: 0 0 1.875rem 0;
         font-size: 1.7rem;
     }
 
@@ -480,16 +449,16 @@ section {
 
     header {
         background: #22211f;
-        padding: 10px 4%;
+        padding: 0.625rem 4vw;
     }
 
     .logo {
-        font-size: 25px;
+        font-size: 1.5625rem;
     }
 
     .nav-btn {
-        padding: 9px 20px;
-        font-size: 14px;
+        padding: 0.5625rem 1.25rem;
+        font-size: 0.875rem;
     }
 
     .scroll {
@@ -524,15 +493,80 @@ section {
     }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 38.125rem) {
     :root {
         --h1-font: 2.7rem;
     }
 
     .hero-text h4 {
-        font-size: 23px;
+        font-size: 1.4375rem;
+    }
+
+    header {
+        padding: 0.9375rem 4vw;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .nav-btn {
+        padding: 0.5rem 1.125rem;
+        font-size: 0.75rem;
+    }
+
+    .navlist a {
+        font-size: 1.5rem;
     }
 }
 
-@media (max-width: 768px) {}
-@media (max-width: 480px) {}
+@media (max-width: 30rem) {
+    :root {
+        --h1-font: 2.5rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .hero-text {
+        order: 1;
+    }
+
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 1rem;
+    }
+
+    .hero-btn {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .hero-img img {
+        max-width: 80%;
+    }
+
+    .skill-categories {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .category {
+        margin-right: 0;
+        margin-bottom: 1.25rem;
+    }
+
+    .contact-info p {
+        font-size: 1.2rem;
+    }
+}
