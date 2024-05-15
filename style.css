@@ -533,3 +533,6 @@ section {
         font-size: 23px;
     }
 }
+
+@media (max-width: 768px) {}
+@media (max-width: 480px) {}
