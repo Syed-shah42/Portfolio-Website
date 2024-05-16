@@ -27,7 +27,6 @@ body {
 
 /* Header Styles */
 header {
-    position: fixed;
     background-color: var(--bg-color);
     width: 100%;
     top: 0;
